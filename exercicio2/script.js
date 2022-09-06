@@ -13,7 +13,7 @@
 
 let idade = Number(prompt("Digite a idade:"))
 let isEnsinoMedio = confirm("Já concluiu o ensino médio?")
-let isCursandoOutraFaculdade = confirm("Está cursando outra faculdade?")
+let isCursandoOutraFaculdade = confirm("Não está cursando outra faculdade?")
 
 if(idade >= 18){
     console.log("Maior de idade.")
